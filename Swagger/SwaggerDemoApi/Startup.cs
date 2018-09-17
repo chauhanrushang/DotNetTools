@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Swashbuckle.AspNetCore.Swagger;
-//using Swashbuckle.AspNetCore.Swagger;
 
 namespace SwaggerDemoApi
 {
@@ -84,8 +83,6 @@ namespace SwaggerDemoApi
             });
 
             app.UseMvc();
-
-
         }
     }
 }
