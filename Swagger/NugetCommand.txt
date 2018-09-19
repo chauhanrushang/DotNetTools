@@ -1,0 +1,7 @@
+Package Manager
+========================
+PM> Install-Package Swashbuckle.AspNetCore -Version 3.0.0
+
+.NET CLI
+========================
+> dotnet add package Swashbuckle.AspNetCore --version 3.0.0	
