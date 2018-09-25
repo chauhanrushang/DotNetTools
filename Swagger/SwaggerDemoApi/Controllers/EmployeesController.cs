@@ -49,6 +49,7 @@ namespace SwaggerDemoApi.Controllers
         /// </remarks>
         // POST api/employees
         [HttpPost]
+        [ApiExplorerSettings(GroupName = "v2")]
         public void Post([FromBody]Employee employee, EmployeeType employeeType)
         {
             // Create employee implementaion
